@@ -24,5 +24,7 @@ google_analytics: "" # UA-XXXXX-Y your Google Analytics tracking ID.
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-bootstrap4-navbar-cdn
+permalink: /:title/
+
 plugins:
   - jekyll-feed
