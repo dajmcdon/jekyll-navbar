@@ -1,4 +1,4 @@
-{% for entry in site.data.nav %}
+{% for entry in site.data.navigation %}
 {% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
     {% if fullurl == page.url %}
         {% assign current_page = fullurl %}
@@ -18,7 +18,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-    {% for entry in site.data.nav %}
+    {% for entry in site.data.navigation %}
         {% if entry.url == current_page %}
             {% assign current = ' active' %}
         {% else %}
