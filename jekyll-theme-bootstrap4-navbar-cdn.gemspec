@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Minimalistic responsive theme using Bootstrap 4 and navbar.}
   spec.description   = "Since this theme is using bootstrap 4, it's naturally responsive. It's very minimalistic and includes syntax highlighting. Bootstrap 4 styling is included via CDN."
   spec.homepage      = "https://github.com/granbom/jekyll-theme-bootstrap4-navbar-cdn"
+  spec.metadata      = { "source_code_uri" => "https://github.com/granbom/jekyll-theme-bootstrap4-navbar-cdn" }
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_data|_layouts|_includes|_sass|LICENSE|README)}i) }
