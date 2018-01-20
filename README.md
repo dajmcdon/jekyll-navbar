@@ -24,10 +24,22 @@ Or install it yourself as:
 
     $ gem install jekyll-theme-bootstrap4-navbar-cdn
 
+### GitHub pages
+
+You can use this theme if using GitHub pages (Even a local site can use GitHub pages gem).
+
+Just add this line to your `_config.yml`:
+
+```yaml
+remote_theme: granbom/jekyll-theme-bootstrap4-navbar-cdn
+```
+
 ## Usage
 
 ### Navigation
-Just create your own _data/navigation.yml to owerride the default example navigation. The format looks like:
+
+Just create your own _data/navigation.yml to override the default example navigation. The format looks like:
+
 ```yml
 - title: Home
   url: /
@@ -43,11 +55,13 @@ Just create your own _data/navigation.yml to owerride the default example naviga
     - title: Jobs
       url: /about/jobs/
 ```
+
 This will setup your site's navigation.
 
 ### Layouts
 
-This theeme include three layouts: default.html, page.html, post.html. Page and post inherits from default, so the only layout really is default.html. And it's simple like this:
+This theme include four layouts: default.html, home.html, page.html, post.html. Home, page and post inherits from default, so the only layout really is default.html. Page and post do add the title as a `<h1>` followed by a `<hr>`. Apart from that the layout is as simple as below:
+
 ```html
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
@@ -72,17 +86,18 @@ This theeme include three layouts: default.html, page.html, post.html. Page and 
 
 ### Includes
 
-head.html have the links to bootstrap 4 CDN css.
-nav.html is the navigation.
-footer.html have the links to Bootstrap 4 CDN js files needed.
+* head.html have the links to bootstrap 4 CDN css.
+* nav.html is the navigation.
+* footer.html have the links to Bootstrap 4 CDN js files needed.
 
 ## TODO
 
-* Add dummy pages.
-* Add Disqus.
-* Add favicon and icon manifests.
-* EU Cookie Law.
-* Twitter struff
+* Add dummy pages
+* Add screenshot.jpg
+* Add Disqus
+* Add favicon and icon manifests
+* EU Cookie Law
+* Twitter stuff
 * Github stuff
 
 ## Contributing

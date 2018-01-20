@@ -25,8 +25,8 @@ google_analytics: "" # UA-XXXXX-Y your Google Analytics tracking ID.
 markdown: kramdown
 theme: jekyll-theme-bootstrap4-navbar-cdn
 permalink: /:title/
-navbar: light
-navbar-bg: light
-navbar-fixed-top: true
+navbar: light          # other option dark
+navbar-bg: light       # other option dark
+navbar-fixed-top: true # if true, also check _sass/bootstrap4-cdn.scss padding top
 plugins:
   - jekyll-feed
