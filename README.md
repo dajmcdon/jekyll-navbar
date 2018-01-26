@@ -7,14 +7,16 @@ I just wanted a lean Bootstrap 4 CDN based theme with navigation. For some reaso
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-bootstrap4-navbar-cdn"
+gem "jekyll-remote-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: jekyll-theme-bootstrap4-navbar-cdn
+remote-theme: granbom/jekyll-theme-bootstrap4-navbar-cdn
 ```
+
+Later it will be included at rubygems.org, just haven't done it yet.
 
 And then execute:
 
