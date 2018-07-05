@@ -18,19 +18,11 @@ remote-theme: granbom/jekyll-theme-bootstrap4-navbar-cdn
 
 Later it will be included at rubygems.org, just haven't done it yet.
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-theme-bootstrap4-navbar-cdn
-
 ### GitHub pages
 
-You can use this theme if using GitHub pages (Even a local site can use GitHub pages gem).
+You can use this theme if using GitHub pages.
 
-Just add this line to your `_config.yml`:
+Add this line to your `_config.yml`:
 
 ```yaml
 remote_theme: granbom/jekyll-theme-bootstrap4-navbar-cdn
@@ -40,7 +32,7 @@ remote_theme: granbom/jekyll-theme-bootstrap4-navbar-cdn
 
 ### Navigation
 
-Just create your own _data/navigation.yml to override the default example navigation. The format looks like:
+Create your own _data/navigation.yml to override the default example navigation. The format looks like:
 
 ```yml
 - title: Home
