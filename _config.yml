@@ -28,5 +28,3 @@ permalink: /:title/
 navbar: light          # other option dark
 navbar-bg: light       # other option dark
 navbar-fixed-top: true # if true, also check _sass/bootstrap4-cdn.scss padding top
-plugins:
-  - jekyll-feed
